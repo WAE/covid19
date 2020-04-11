@@ -1,28 +1,28 @@
-<link rel="prerender" href="https://github.com/WAE/coronavirus">
+<link rel="prerender" href="https://github.com/WAE/covid19">
 
-## [WAE.virus.coronavirus](https://github.com/WAE/coronavirus)
+## [WAE.virus.covid19](https://github.com/WAE/covid19)
 
-##### -r--r--r-- [coronavirus.statistics.zsh](https://raw.githubusercontent.com/WAE/coronavirus/master/coronavirus.statistics.zsh)
-##### -rwxrwxrwx [coronavirus.statistics.zsh](https://wae.github.io/coronavirus/coronavirus.statistics.zsh)
+##### -r--r--r-- [covid19.statistics.zsh](https://raw.githubusercontent.com/WAE/covid19/master/covid19.statistics.zsh)
+##### -rwxrwxrwx [covid19.statistics.zsh](https://wae.github.io/covid19/covid19.statistics.zsh)
 
-[This repository](https://github.com/WAE/coronavirus) is a submodule for [WAE.virus](https://github.com/WAE/virus).  In order to install it in its' proper place on a smartphone, tablet an TV, run [coronavirus.statistics.zsh](https://raw.githubusercontent.com/WAE/coronavirus/master/coronavirus.statistics.zsh) after downloading.  Alternatively, copy and paste the following into [Termux](https://github.com/termux):
+[This repository](https://github.com/WAE/covid19) is a submodule for [WAE.virus](https://github.com/WAE/virus).  In order to install it in its' proper place on a smartphone, tablet an TV, run [covid19.statistics.zsh](https://raw.githubusercontent.com/WAE/covid19/master/covid19.statistics.zsh) after downloading.  Alternatively, copy and paste the following into [Termux](https://github.com/termux):
 
 ```
    au git wget zsh || apt install git wget zsh # installs git wget and zsh
 
-   mkdir -p ~/WAE/virus/coronavirus/ # creates directories
+   mkdir -p ~/WAE/virus/covid19/ # creates directories
 
    cd ~/WAE/virus/
 
-   git clone https://github.com/WAE/coronavirus # clones repository
+   git clone https://github.com/WAE/covid19 # clones repository
 
-   cd ~/WAE/virus/coronavirus
+   cd ~/WAE/virus/covid19
 
-   coronavirus.statistics.zsh new-zealand uk # lists statistics
+   covid19.statistics.zsh new-zealand uk # lists statistics
 ```
 Run this command to see all available country names:
 ```
-   coronavirus.statistics.zsh
+   covid19.statistics.zsh
 ```
 [![Screenshot_20200408-062343.png](./docs/images/Screenshot_20200408-062343.png)](https://github.com/WAE/coronavirus/raw/master/docs/images/Screenshot_20200408-062343.png)
 
@@ -30,21 +30,21 @@ To configure default statistical output for China run this command in the root d
 ```
    echo china > .conf/COUNTRYSTAT
 ```
-File [output/by.country.20200408.md](https://raw.githubusercontent.com/WAE/coronavirus/master/output/by.country.20200408.md) has example output to queries;  Example queries:
+File [output/by.country.20200408.md](https://raw.githubusercontent.com/WAE/covid19/master/output/by.country.20200408.md) has example output to queries;  Example queries:
 ```
-   coronavirus.statistics.zsh brazil france
+   covid19.statistics.zsh brazil france
 
-   coronavirus.statistics.zsh canada japan
+   covid19.statistics.zsh canada japan
 
-   coronavirus.statistics.zsh iceland mexico
+   covid19.statistics.zsh iceland mexico
 
-   coronavirus.statistics.zsh italy norway
+   covid19.statistics.zsh italy norway
 
-   coronavirus.statistics.zsh uk spain
+   covid19.statistics.zsh uk spain
 ```
-File [output/by.new.mortality.20200409.md](https://raw.githubusercontent.com/WAE/coronavirus/master/output/by.new.mortality.20200409.md) was created by script [scripts/by.new.mortality.sh](https://raw.githubusercontent.com/WAE/coronavirus/master/scripts/by.new.mortality.sh) which lists countries by new mortality rate.
+File [output/by.new.mortality.20200409.md](https://raw.githubusercontent.com/WAE/covid19/master/output/by.new.mortality.20200409.md) was created by script [scripts/by.new.mortality.sh](https://raw.githubusercontent.com/WAE/covid19/master/scripts/by.new.mortality.sh) which lists countries by new mortality rate.
 
-File [output/by.new.spread.20200409.md](https://raw.githubusercontent.com/WAE/coronavirus/master/output/by.new.spread.20200409.md) was created by script [scripts/by.new.spread.sh](https://raw.githubusercontent.com/WAE/coronavirus/master/scripts/by.new.spread.sh) which lists countries by new spread rate.
+File [output/by.new.spread.20200409.md](https://raw.githubusercontent.com/WAE/covid19/master/output/by.new.spread.20200409.md) was created by script [scripts/by.new.spread.sh](https://raw.githubusercontent.com/WAE/covid19/master/scripts/by.new.spread.sh) which lists countries by new spread rate.
 
 Recommended Internet searches during current viral pandemic:
 ```

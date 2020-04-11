@@ -3,7 +3,7 @@
 # https://sdrausty.github.io hosted courtesy https://pages.github.com
 #####################################################################
 set -eu
-RDR="$HOME/WAE/virus/coronavirus"
+RDR="$HOME/WAE/virus/covid19"
 _QUIT_() {
 	[ -f "$RDR/index.html" ] && rm "$RDR/index.html"
 	printf "\\n" 
@@ -24,17 +24,17 @@ _HELP_() {
 	# # ```
 	# #    au git wget zsh || apt install git wget zsh # installs git, wget and zsh with apt or au (https://wae.github.io/au/)
 	# #
-	# #    mkdir -p ~/WAE/virus/coronavirus/ # creates directories
+	# #    mkdir -p ~/WAE/virus/covid19/ # creates directories
 	# #
 	# #    cd ~/WAE/virus/ # changes working directory
 	# #
-	# #    git clone https://github.com/WAE/coronavirus # clones repository
+	# #    git clone https://github.com/WAE/covid19 # clones repository
 	# #
-	# #    cd ~/WAE/virus/coronavirus # changes working directory
+	# #    cd ~/WAE/virus/covid19 # changes working directory
 	# #
-	# #    zsh coronavirus.statistics.zsh # lists country names
+	# #    zsh covid19.statistics.zsh # lists country names
 	# #
-	# #    zsh coronavirus.statistics.zsh new-zealand uk # lists statistics
+	# #    zsh covid19.statistics.zsh new-zealand uk # lists statistics
 	# #
 	# # ```
 }
@@ -54,7 +54,7 @@ _INSTALL_() {
 	[ ! -z "$(command -v "zsh")" ] || _INSTALLCOMS_
 	mkdir -p "$RDR" # creates directories
 	cd "$HOME/WAE/virus/" # changes working directory
-	git clone https://github.com/WAE/coronavirus || printf "\\e[1;38;5;117m%s\\e[0m\\n" "$STRING3"
+	git clone https://github.com/WAE/covid19 || printf "\\e[1;38;5;117m%s\\e[0m\\n" "$STRING3"
 	cd "$RDR"
 	printf "\\e[1;38;5;117m%s\\e[0m\\n" "$RDR setup: DONE"
 }
