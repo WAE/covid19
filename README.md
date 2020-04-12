@@ -71,4 +71,6 @@ Las bacterias, los cánceres, los hongos y los gusanos no son virus.
 > Iceland has achieved something no other country has: tested 10% of its population for coronavirus, a figure far higher than anywhere else in the world. 
 > While many countries publish daily and cumulative infection and death rates, there don't appear to be comparable statistics for other nations available that give an overall sense of how deep-rooted the virus is, or how many carriers of the disease, at any given time, may have no symptoms. 
 Reference: https://amp.usatoday.com/amp/2959797001 retrieved 20200410
+
+https://nypost.com/2020/04/12/how-a-bronx-zoo-tiger-was-tested-for-coronavirus/ 20200412
 <!--README.md EOF-->
