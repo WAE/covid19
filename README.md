@@ -125,6 +125,6 @@ https://nypost.com/2020/04/12/how-a-bronx-zoo-tiger-was-tested-for-coronavirus/ 
 
 Run to following command to see current statistics for iceland uk and default country: 	
 ```
-coronavirus.statistics.zsh iceland uk # lists statistics for default country, iceland and uk 
+covid19.statistics.zsh iceland uk # lists statistics for default country, iceland and uk 
 ```
 <!--covid19 README.md EOF-->
