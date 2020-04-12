@@ -72,13 +72,11 @@ Las bacterias, los cánceres, los hongos y los gusanos no son virus.
 > While many countries publish daily and cumulative infection and death rates, there don't appear to be comparable statistics for other nations available that give an overall sense of how deep-rooted the virus is, or how many carriers of the disease, at any given time, may have no symptoms. 
 Reference: https://amp.usatoday.com/amp/2959797001 retrieved 20200410
 
-> 
 > The Bronx Zoo tiger who tested positive for the coronavirus is “writing the book” on how big cats are affected by the deadly bug, according to the animal hub’s vet.
 zookeeper.
 > On the plus side, the zoo says Nadia is on the mend and will be just fine.
 > However, the incident has prompted the zoo to put new procedures in place to protect the animals in the future.
-
-“We are practicing social distancing with our wild cats as well,” Calle said
+> “We are practicing social distancing with our wild cats as well,” Calle said
 
 https://nypost.com/2020/04/12/how-a-bronx-zoo-tiger-was-tested-for-coronavirus/ 20200412
 <!--README.md EOF-->
