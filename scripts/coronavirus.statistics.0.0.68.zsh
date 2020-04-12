@@ -4,7 +4,7 @@
 #####################################################################
 set -eu
 RDR="$HOME/WAE/virus/coronavirus"
-[ -d "$RDR" ] && cd "$RDR" || (printf "\\n%s\\n\\n" "Install ${0##*/} coronavirus.statistics.zsh in $RDR:
+[ -d "$RDR" ] && cd "$RDR" || (printf "\\n%s\\n\\n" "Install ${0##*/} covid19.statistics.zsh in $RDR:
 # # To install this script, copy and paste:
 # # ```
 # #    au git wget zsh || apt install git wget zsh # installs git, wget and zsh with au (https://wae.github.io/au/) or apt
@@ -17,9 +17,9 @@ RDR="$HOME/WAE/virus/coronavirus"
 # # 
 # #    cd ~/WAE/virus/coronavirus # changes working directory
 # # 
-# #    zsh coronavirus.statistics.zsh # lists country names
+# #    zsh covid19.statistics.zsh # lists country names
 # # 
-# #    zsh coronavirus.statistics.zsh new-zealand uk # lists statistics
+# #    zsh covid19.statistics.zsh new-zealand uk # lists statistics
 # # 
 # # ```
 $(grep -w "\\#\\ \\#" "$0")
@@ -68,4 +68,4 @@ printf "%s\\n" "  * hydration virus"
 printf "%s\\n" "  * hydration virus site:.gov"
 printf "\\n" 
 unset ARR
-# coronavirus.statistics.zsh EOF
+# covid19.statistics.zsh EOF
