@@ -39,8 +39,8 @@ _HELP_() {
 }
 
 _INSTALLCOMS_() {
-	ISTRING=(git wget zsh)
-	[ ! -z "$(command -v "au")" ] && (au $ISTRING) || (printf "\\e[1;38;5;117m%s\\e[0m\\n" "$STRING1") || [ ! -z "$(command -v apt)" ] && (apt install $ISTRING) || (printf "\\e[1;38;5;117m%s\\e[0m\\n" "$STRING2") 
+	IARR=(git wget zsh)
+	[ ! -z "$(command -v "au")" ] && (au $IARR) || (printf "\\e[1;38;5;117m%s\\e[0m\\n" "$STRING1") || [ ! -z "$(command -v apt)" ] && (apt install $IARR) || (printf "\\e[1;38;5;117m%s\\e[0m\\n" "$STRING2") 
 }
 
 _INSTALL_() {
