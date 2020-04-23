@@ -125,8 +125,12 @@ https://www.dailymail.co.uk/sciencetech/article-8208831/NASA-data-shows-air-poll
 
 https://nypost.com/2020/04/12/how-a-bronx-zoo-tiger-was-tested-for-coronavirus/ 20200412
 
+> Sweden resisted a lockdown, and its capital Stockholm is expected to reach 'herd immunity' in weeks
+
+https://www.cnbc.com/amp/2020/04/22/no-lockdown-in-sweden-but-stockholm-could-see-herd-immunity-in-weeks.html
+
 The following command will attempt to show the current statistics for the default country, Iceland and Norway: 	
 ```
-covid19.statistics.zsh iceland norway # lists statistics for the default country, Iceland and Norway 
+~/WAE/virus/covid19/covid19.statistics.zsh iceland norway # lists statistics for the default country, Iceland and Norway 
 ```
 <!--covid19 README.md EOF-->
