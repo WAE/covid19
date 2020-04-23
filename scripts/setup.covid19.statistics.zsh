@@ -15,7 +15,6 @@ _TERM_() {
 	printf "%s\\n" "	\"egg yolk\" virus site:.gov"
 	printf "%s\\n" "	hydration virus"
 	printf "\\n" 
-	unset ARR
 	exit
 }
 trap '_TERM_ $LINENO $?' 0 1 2 3 
@@ -40,9 +39,9 @@ _HELP_() {
 }
 
 _INSTALLCOMS_() {
-	IARR="git wget zsh"
-	[ ! -z "$(command -v "au")" ] && (au "$IARR") || (printf "%s\\n" "$STRING1") || [ ! -z "$(command -v apt)" ] && (apt install "$IARR") || (printf "%s\\n" "$STRING2") 
-	unset IARR
+	ISTRING="git wget zsh"
+	[ ! -z "$(command -v "au")" ] && (au "$ISTRING") || (printf "%s\\n" "$STRING1") || [ ! -z "$(command -v apt)" ] && (apt install "$ISTRING") || (printf "%s\\n" "$STRING2") 
+	unset ISTRING
 }
 
 _INSTALL_() {
