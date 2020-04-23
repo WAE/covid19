@@ -2,24 +2,9 @@
 # Copyright 2020 (c)  all rights reserved by S D Rausty;  see LICENSE  
 # https://sdrausty.github.io hosted courtesy https://pages.github.com
 #####################################################################
-# # To install this script, copy and paste:
-# # ```
-# #    au git wget zsh || apt install git wget zsh #  installs git, wget and zsh with apt or au (https://wae.github.io/au/)
-# # 
-# #    mkdir -p ~/WAE/virus/covid19/ #  creates directories
-# # 
-# #    cd ~/WAE/virus/ #  changes working directory
-# # 
-# #    git clone https://github.com/WAE/covid19 #  clones repository
-# # 
-# #    ~/WAE/virus/covid19.statistics.zsh #  lists country names
-# # 
-# #    ~/WAE/virus/covid19.statistics.zsh new-zealand uk #  lists statistics
-# # 
-# # ```
 set -eu
 RDR="$HOME/WAE/virus/covid19"
-_TERM_() {
+_QUIT_() {
 	[ -f "$RDR/index.html" ] && rm "$RDR/index.html"
 	printf "\\n" 
 	printf "%s\\n" "Related Internet Searches:"
@@ -32,10 +17,26 @@ _TERM_() {
 	unset ARR
 	exit
 }
-trap '_TERM_ $LINENO $?' ERR EXIT HUP INT TERM QUIT 
 
 _HELP_() {
-	grep -w "\\#\\ \\#" "$1" | sed "s/\\#\\ \\#\\ //g" 
+	grep -w "\\#\\ \\#" "$1" | sed "s/\\#\\ \\#//g" 
+	# # To install this script, copy and paste:
+	# # ```
+	# #    au git wget zsh || apt install git wget zsh # installs git, wget and zsh with apt or au (https://wae.github.io/au/)
+	# #
+	# #    mkdir -p ~/WAE/virus/covid19/ # creates directories
+	# #
+	# #    cd ~/WAE/virus/ # changes working directory
+	# #
+	# #    git clone https://github.com/WAE/covid19 # clones repository
+	# #
+	# #    cd ~/WAE/virus/covid19 # changes working directory
+	# #
+	# #    covid19.statistics.zsh # lists country names
+	# #
+	# #    covid19.statistics.zsh new-zealand uk # lists statistics
+	# #
+	# # ```
 }
 
 _INSTALLCOMS_() {
@@ -62,8 +63,8 @@ _INSTALL_() {
 DATA="https://www.worldometers.info/coronavirus/"
 DATE="$(date +%Y%m%d)"
 [ ! -f "$RDR/www.worldometers.info/coronavirus/$DATE/index.html" ] && [ ! -d "$RDR/www.worldometers.info/coronavirus/$DATE/" ] && mkdir -p "$RDR/www.worldometers.info/coronavirus/$DATE" && cd "$RDR/www.worldometers.info/coronavirus/$DATE" && wget $DATA && cd "$RDR"
-[ ! -f "$RDR/index.html" ] && ln -s "$RDR/www.worldometers.info/covid19/$DATE/index.html" 
-# # `  echo china > .conf/COUNTRYSTAT ` to change default country output.
+[ ! -f "$RDR/index.html" ] && ln -s "$RDR/www.worldometers.info/coronavirus/$DATE/index.html" 
+	# # `  echo china > .conf/COUNTRYSTAT ` to set default country
 [ -f "$RDR/.conf/COUNTRYNAME" ] && COUNTRYNAME="$(cat $RDR/.conf/COUNTRYNAME)" || COUNTRYNAME="us"
 
 _ARR_() {
@@ -111,8 +112,9 @@ _CONCO_() {
 	printf "%s\\n" "${#ARR[@]}"
 }
 
-[ -z "${1:-}" ] && _CONCO_ && exit
-[[ "${1//-}" = [Hh]* ]] && [ -z "${2:-}" ] && _HELP_ $0 && exit
+[ -z "${1:-}" ] && _CONCO_ && _QUIT_ "$0"
+[[ "${1//-}" = [Hh]* ]] && [ -z "${2:-}" ] && _HELP_ $0 && _QUIT_ "$0" 
 _ARR_
-[ ! -z "${1:-}" ] && [ ! -z "${2:-}" ] && COUNTRYNAME="$1" && _ARR_ && COUNTRYNAME="$2" && _ARR_ && exit 
+[ ! -z "${1:-}" ] && [ ! -z "${2:-}" ] && COUNTRYNAME="$1" && _ARR_ && COUNTRYNAME="$2" && _ARR_ 
+_QUIT_ "$0"
 # covid19.statistics.zsh EOF
