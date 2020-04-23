@@ -62,7 +62,7 @@ _INSTALL_() {
 DATA="https://www.worldometers.info/coronavirus/"
 DATE="$(date +%Y%m%d)"
 [ ! -f "$RDR/www.worldometers.info/coronavirus/$DATE/index.html" ] && [ ! -d "$RDR/www.worldometers.info/coronavirus/$DATE/" ] && mkdir -p "$RDR/www.worldometers.info/coronavirus/$DATE" && cd "$RDR/www.worldometers.info/coronavirus/$DATE" && wget $DATA && cd "$RDR"
-[ ! -f "$RDR/index.html" ] && ln -s "$RDR/www.worldometers.info/covid19/$DATE/index.html" 
+[ ! -f "$RDR/index.html" ] && ln -s "$RDR/www.worldometers.info/coronavirus/$DATE/index.html" 
 # # `  echo china > .conf/COUNTRYSTAT ` to change default country output.
 [ -f "$RDR/.conf/COUNTRYNAME" ] && COUNTRYNAME="$(cat $RDR/.conf/COUNTRYNAME)" || COUNTRYNAME="us"
 
