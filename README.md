@@ -1,6 +1,6 @@
 <link rel="prerender" href="https://github.com/WAE/covid19">
 
-## [WAE.virus.covid19](https://github.com/WAE/covid19)
+## [WAE/virus/covid19](https://github.com/WAE/covid19)
 
 ##### -r--r--r-- [covid19.statistics.zsh](https://raw.githubusercontent.com/WAE/covid19/master/covid19.statistics.zsh)
 ##### -rwxrwxrwx [covid19.statistics.zsh](https://wae.github.io/covid19/covid19.statistics.zsh)
