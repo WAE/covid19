@@ -109,7 +109,7 @@ _CONCO_() {
 	do 
 		printf "%s\\n" "$NAMES"
 	done
-	printf "\\n%s\\n" "Worldwide ${#ARR[@]} countries have registered coronavirus virus pandemic cases as of $(date +%A\,\ %B\ %d\ %Y)."
+	printf "\\n%s\\n" "Worldwide ${#ARR[@]} countries have registered coronavirus virus pandemic cases as of $(date +%A\,\ %B\ %d\ %Y).  These statistics are based upon data published at this Internet $DATA address."
 }
 
 [ -z "${1:-}" ] && _CONCO_ && exit
