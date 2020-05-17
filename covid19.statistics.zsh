@@ -23,17 +23,17 @@ _HELP_() {
 	grep -h -e "^\\#\\ \\#" -e "^\\	\\#\\ \\#" "$1" | sed "s/^\\#\\ \\#\\ //g" | sed "s/^\\	\\#\\ \\#\\ //g"  
 	# # To install this script, copy and paste:
 	# # ```
-	# #    au git wget zsh || apt install git wget zsh	#  install git, wget and zsh with au or apt (https://wae.github.io/au/)
+	# #    au git wget zsh || apt install git wget zsh	#  install git, wget and zsh with au (https://wae.github.io/au/) and apt (https://salsa.debian.org/apt-team/apt)
 	# # 
-	# #    mkdir -p ~/WAE/virus/covid19/	#  create directories
+	# #    mkdir -p ~/WAE/virus/covid19/		#  create directories
 	# # 
 	# #    cd ~/WAE/virus/			#  change working directory
 	# # 
-	# #    git clone https://github.com/WAE/covid19	#  clone git repository
+	# #    git clone https://github.com/WAE/covid19		#  clone git repository
 	# # 
 	# # ```
 	# # 
-	# #    ~/WAE/virus/covid19.statistics.zsh		#  list country names
+	# #    ~/WAE/virus/covid19.statistics.zsh	#  list countries
 	# # 
 	# #    ~/WAE/virus/covid19.statistics.zsh new-zealand uk	#  list statistics
 	# # 
