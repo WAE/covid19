@@ -5,7 +5,7 @@
 ##### -r--r--r-- [covid19.statistics.zsh](https://raw.githubusercontent.com/WAE/covid19/master/covid19.statistics.zsh)
 ##### -rwxrwxrwx [covid19.statistics.zsh](https://wae.github.io/covid19/covid19.statistics.zsh)
 
-[This repository](https://github.com/WAE/covid19) is a submodule for [WAE/virus](https://github.com/WAE/virus).  In order to install it in its' proper place on a smartphone, tablet and TV, run [setup.covid19.statistics.sh](https://raw.githubusercontent.com/WAE/covid19/master/scripts/setup.covid19.statistics.sh) after downloading.  Tapping [this link](https://wae.github.io/covid19/scripts/setup.covid19.statistics.sh) should download [setup.covid19.statistics.sh](https://wae.github.io/covid19/scripts/setup.covid19.statistics.sh) to device.  Alternatively, copy and paste the following into [Termux](https://github.com/termux) on smartphone, tablet and werable:
+[This repository](https://github.com/WAE/covid19) is a submodule for [WAE/virus](https://github.com/WAE/virus).  In order to install it in its' proper place on a smartphone, tablet and TV, run [setup.covid19.statistics.sh](https://raw.githubusercontent.com/WAE/covid19/master/scripts/setup.covid19.statistics.sh) after downloading.  Tapping [this link](https://wae.github.io/covid19/scripts/setup.covid19.statistics.sh) should download [setup.covid19.statistics.sh](https://wae.github.io/covid19/scripts/setup.covid19.statistics.sh) to device.  Alternatively, copy and paste the following into [Termux](https://github.com/termux) on smartphone, tablet, TV and wearable:
 
 ```
    au git wget zsh || apt install git wget zsh # install git wget and zsh
