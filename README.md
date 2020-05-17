@@ -232,4 +232,5 @@ This command will attempt to show the current statistics for [the default countr
 ```
 ~/WAE/virus/covid19/covid19.statistics.zsh iceland norway # lists statistics for the default country, Iceland and Norway 
 ```
+
 <!--covid19 README.md EOF-->
