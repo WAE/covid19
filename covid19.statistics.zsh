@@ -14,7 +14,7 @@ _TERM_() {
 	printf "%s\\n" "	\"egg yolk\" virus site:.gov"
 	printf "%s\\n" "	hydration virus"
 	printf "\\n" 
-	unset ARR
+	unset ARR INDEX
 	exit
 }
 trap '_TERM_ $LINENO $?' ERR EXIT HUP INT TERM QUIT 
@@ -108,7 +108,7 @@ _CONCO_() {
 	do 
 		printf "%s\\n" "$NAMES"
 	done
-	printf "%s\\n" "${#ARR[@]}"
+	printf "\\n%s\\n" "Worldwide, ${#ARR[@]} countries have registered coronavirus virus pandemic cases as of $(date +%A\,\ %B\ %d\ %Y)."
 }
 
 [ -z "${1:-}" ] && _CONCO_ && exit
