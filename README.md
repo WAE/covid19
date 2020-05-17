@@ -101,17 +101,14 @@ https://www.cnn.com/travel/amp/private-jet-turned-back-cannes-france/index.html 
 
 Countries mentioned in private jet article:
 
+```
 4.9763% = GERMANY 20200411 NEW MORTALITY RATE (0.0000% is ideal)
-
 6.1047% = CROATIA 20200411 NEW MORTALITY RATE (0.0000% is ideal)
-
 29.1589% = ROMANIA 20200411 NEW MORTALITY RATE (0.0000% is ideal)
-
 35.4080% = FRANCE 20200411 NEW MORTALITY RATE (0.0000% is ideal)
-
 49.3590% = UKRAINE 20200411 NEW MORTALITY RATE (0.0000% is ideal)
-	
 96.9109% = UK 20200411 NEW MORTALITY RATE (0.0000% is ideal)
+```
 
 > #### NASA data reveals air pollution in northeast areas of the US have dropped by 30 percent as millions are under lockdown due to the coronavirus pandemic
 
