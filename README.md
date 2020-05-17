@@ -228,6 +228,7 @@ $ grep -hn " US " ~/WAE/virus/covid19/output/by.new.spread.20200{4,5}{10..12}* |
 ```
 
 This command will attempt to show the current statistics for [the default country](https://github.com/WAE/coronavirus/blob/master/.conf/COUNTRYNAME), Iceland and Norway: 	
+
 ```
 ~/WAE/virus/covid19/covid19.statistics.zsh iceland norway # lists statistics for the default country, Iceland and Norway 
 ```
