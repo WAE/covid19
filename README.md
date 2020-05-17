@@ -5,24 +5,22 @@
 ##### -r--r--r-- [covid19.statistics.zsh](https://raw.githubusercontent.com/WAE/covid19/master/covid19.statistics.zsh)
 ##### -rwxrwxrwx [covid19.statistics.zsh](https://wae.github.io/covid19/covid19.statistics.zsh)
 
-[This repository](https://github.com/WAE/covid19) is a submodule for [WAE/virus](https://github.com/WAE/virus).  In order to install it in its' proper place on a smartphone, tablet an TV, run [setup.covid19.statistics.sh](https://raw.githubusercontent.com/WAE/covid19/master/scripts/setup.covid19.statistics.sh) after downloading.  Tapping [this link](https://wae.github.io/covid19/scripts/setup.covid19.statistics.sh) should download [setup.covid19.statistics.sh](https://wae.github.io/covid19/scripts/setup.covid19.statistics.sh) to device.  Alternatively, copy and paste the following into [Termux](https://github.com/termux) on smartphone, tablet and werable:
+[This repository](https://github.com/WAE/covid19) is a submodule for [WAE/virus](https://github.com/WAE/virus).  In order to install it in its' proper place on a smartphone, tablet and TV, run [setup.covid19.statistics.sh](https://raw.githubusercontent.com/WAE/covid19/master/scripts/setup.covid19.statistics.sh) after downloading.  Tapping [this link](https://wae.github.io/covid19/scripts/setup.covid19.statistics.sh) should download [setup.covid19.statistics.sh](https://wae.github.io/covid19/scripts/setup.covid19.statistics.sh) to device.  Alternatively, copy and paste the following into [Termux](https://github.com/termux) on smartphone, tablet and werable:
 
 ```
-   au git wget zsh || apt install git wget zsh # installs git wget and zsh
+   au git wget zsh || apt install git wget zsh # install git wget and zsh
 
-   mkdir -p ~/WAE/virus/covid19/ # creates directories
+   mkdir -p ~/WAE/virus/covid19/ # create directories
 
    cd ~/WAE/virus/
 
-   git clone https://github.com/WAE/covid19 # clones repository
+   git clone https://github.com/WAE/covid19 # clone repository
 
-   cd ~/WAE/virus/covid19
-
-   covid19.statistics.zsh new-zealand uk # lists statistics
+   ~/WAE/virus/covid19/covid19.statistics.zsh new-zealand uk # list statistics
 ```
 Run this command to see all available country names:
 ```
-   covid19.statistics.zsh
+   ~/WAE/virus/covid19/covid19.statistics.zsh
 ```
 [![Screenshot_20200408-062343.png](https://github.com/WAE/coronavirus/raw/master/docs/images/Screenshot_20200408-062343.png)](https://github.com/WAE/coronavirus/raw/master/docs/images/Screenshot_20200408-062343.png)
 
