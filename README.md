@@ -5,7 +5,7 @@
 ##### -r--r--r-- [covid19.statistics.zsh](https://raw.githubusercontent.com/WAE/covid19/master/covid19.statistics.zsh)
 ##### -rwxrwxrwx [covid19.statistics.zsh](https://wae.github.io/covid19/covid19.statistics.zsh)
 
-[This repository](https://github.com/WAE/covid19) is a submodule for [WAE.virus](https://github.com/WAE/virus).  In order to install it in its' proper place on a smartphone, tablet an TV, run [covid19.statistics.zsh](https://raw.githubusercontent.com/WAE/covid19/master/covid19.statistics.zsh) after downloading.  Alternatively, copy and paste the following into [Termux](https://github.com/termux):
+[This repository](https://github.com/WAE/covid19) is a submodule for [WAE/virus](https://github.com/WAE/virus).  In order to install it in its' proper place on a smartphone, tablet an TV, run [covid19.statistics.zsh](https://raw.githubusercontent.com/WAE/covid19/master/covid19.statistics.zsh) after downloading.  Alternatively, copy and paste the following into [Termux](https://github.com/termux):
 
 ```
    au git wget zsh || apt install git wget zsh # installs git wget and zsh
@@ -221,7 +221,7 @@ $ grep -h " US " ~/WAE/virus/covid19/output/by.new.spread.20200{4,5}{10..12}*
 76.7096% = US 20200510 
 75.3993% = US 20200511 
 74.5362% = US 20200512 
-$ grep -hn " US " ~/WAE/virus/coronavirus/output/by.new.spread.20200{4,5}{10..12}* | sort -g
+$ grep -hn " US " ~/WAE/virus/covid19/output/by.new.spread.20200{4,5}{10..12}* | sort -g
 172:90.9159% = US 20200410 
 175:74.5362% = US 20200512 
 176:75.3993% = US 20200511 
@@ -230,7 +230,7 @@ $ grep -hn " US " ~/WAE/virus/coronavirus/output/by.new.spread.20200{4,5}{10..12
 186:90.7458% = US 20200412 
 ```
 
-This command shows the current statistics for [the default country](https://github.com/WAE/covid19/blob/master/.conf/COUNTRYNAME), Iceland and Norway: 	
+This command will attempt to show the current statistics for [the default country](https://github.com/WAE/coronavirus/blob/master/.conf/COUNTRYNAME), Iceland and Norway: 	
 ```
 ~/WAE/virus/covid19/covid19.statistics.zsh iceland norway # lists statistics for the default country, Iceland and Norway 
 ```
