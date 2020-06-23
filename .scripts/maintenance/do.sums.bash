@@ -37,6 +37,8 @@ _DOSUMSBASH_ () {
 	then
 		git commit -a -S -m "$SN" 
 		pkill gpg-agent
+	else
+		git commit -m "$SN"
 	fi
 	git push
 	ls
