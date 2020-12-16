@@ -76,7 +76,7 @@ Las bacterias, los cánceres, los hongos y los gusanos no son virus.
 
 > While many countries publish daily and cumulative infection and death rates, there don't appear to be comparable statistics for other nations available that give an overall sense of how deep-rooted the virus is, or how many carriers of the disease, at any given time, may have no symptoms. 
 
-https://amp.usatoday.com/amp/2959797001 20200410
+20200410 https://amp.usatoday.com/amp/2959797001
 
 > #### One by one, nurses got coronavirus at a Silicon Valley hospital while management kept quiet
 
@@ -84,7 +84,7 @@ https://m.sfgate.com/news/article/One-by-one-nurses-got-coronavirus-at-a-Silicon
 
 > #### Coronavirus patients can suffer lasting bodily damage, even after recovery
 
-https://nypost.com/2020/04/11/coronavirus-patients-can-suffer-lasting-bodily-damage/ 20200411
+20200411 https://nypost.com/2020/04/11/coronavirus-patients-can-suffer-lasting-bodily-damage/
 
 
 > #### Private jet carrying vacationers turned back after landing in the south of France
@@ -110,7 +110,7 @@ Countries mentioned in private jet article:
 
 > #### NASA data reveals air pollution in northeast areas of the US have dropped by 30 percent as millions are under lockdown due to the coronavirus pandemic
 
-https://www.dailymail.co.uk/sciencetech/article-8208831/NASA-data-shows-air-pollution-northeast-areas-dropped-30-percent-amid-coronavirus.html 20200412
+20200412 https://www.dailymail.co.uk/sciencetech/article-8208831/NASA-data-shows-air-pollution-northeast-areas-dropped-30-percent-amid-coronavirus.html
 
 > #### How a Bronx Zoo tiger was tested for coronavirus
 
@@ -150,7 +150,7 @@ https://arstechnica.com/science/2020/04/experts-demolish-studies-suggesting-covi
 
 > It is a mystery that has left doctors questioning the basic tenets of biology: Covid-19 patients who are talking and apparently not in distress, but who have oxygen levels low enough to typically cause unconsciousness or even death.
 
-https://www.theguardian.com/world/2020/may/03/happy-hypoxia-unusual-coronavirus-effect-baffles-doctors
+20200503 https://www.theguardian.com/world/2020/may/03/happy-hypoxia-unusual-coronavirus-effect-baffles-doctors
 
 > #### The mystery of the pandemic's ‘happy hypoxia’
 
@@ -164,7 +164,7 @@ https://science.sciencemag.org/content/368/6490/455
 
 > To date, the researchers have identified 14 mutations. 
 
-https://www.cnbc.com/2020/05/05/the-coronavirus-mutated-and-appears-to-be-more-contagious-now-new-study-finds.html
+20200505 https://www.cnbc.com/2020/05/05/the-coronavirus-mutated-and-appears-to-be-more-contagious-now-new-study-finds.html
 
 > #### U.S. COVID-19 death rate is 1.3%, study finds
 
@@ -204,7 +204,7 @@ $ grep -h " US " ~/WAE/virus/covid19/output/by.new.mortality.202005*
 
 > "Anybody that claims we're on a downward trajectory nationally is out of touch with reality," Dr. Irwin Redlener, the director of the Columbia University National Center for Disaster Preparedness, told NBC News, adding that even the rising numbers do not tell the full story. 
 
-https://www.salon.com/2020/05/12/leaked-white-house-data-shows-infections-spiking-more-than-1000-in-rural-areas-that-backed-trump/
+20200512 https://www.salon.com/2020/05/12/leaked-white-house-data-shows-infections-spiking-more-than-1000-in-rural-areas-that-backed-trump/
 
 ```
 $ grep -h " US " ~/WAE/virus/covid19/output/by.new.spread.20200{4,5}{10..12}*
@@ -229,7 +229,7 @@ $ grep -hn " US " ~/WAE/virus/covid19/output/by.new.spread.20200{4,5}{10..12}* |
 
 > “Sweden will be judged at the finish line,” Mr. Noymer said. “But it’s a very high-stakes risk, and the consequences are people's lives.”
 
-https://www.nytimes.com/interactive/2020/05/15/world/europe/sweden-coronavirus-deaths.html 20200517
+20200517 https://www.nytimes.com/interactive/2020/05/15/world/europe/sweden-coronavirus-deaths.html
 
 ```
 $ grep -hn -e DENMARK -e FAEROE-ISLANDS -e FINLAND -e GREENLAND -e ICELAND -e NORWAY -e SWEDEN ~/WAE/virus/coronavirus/output/by.new.mortality.20200409.md
@@ -276,7 +276,7 @@ https://www.foxnews.com/science/dogs-could-sniff-coronavirus-cases-750-per-hour-
 
 > Dr. Guest also estimated dogs could sniff out as many as 750 people per hour, significantly aiding in the testing capabilities throughout the world.
 
-https://www.foxnews.com/science/dogs-trained-smell-coronavirus-in-us-patients 20200518
+20200518 https://www.foxnews.com/science/dogs-trained-smell-coronavirus-in-us-patients
 
 > #### Trial for dogs to sniff out COVID-19 in UK starts
 
@@ -288,9 +288,13 @@ https://www.foxnews.com/science/dogs-trained-smell-coronavirus-in-us-patients 20
 
 > In a welcome move, authorities are also providing a lot of healthcare workers and frontline heroes eggs daily to boost immunity.  A new challenge #eggsforimmunity has also gone viral on Twitter, wherein users are sharing pictures of the many ways they have eggs, talking of the several nutrient-rich benefits.
 
-https://m.timesofindia.com/life-style/health-fitness/diet/prescribed-for-covid19-positive-patients-here-is-why-eggs-are-so-good-for-your-immunity/photostory/75183540.cms 20200525
+20200525 https://m.timesofindia.com/life-style/health-fitness/diet/prescribed-for-covid19-positive-patients-here-is-why-eggs-are-so-good-for-your-immunity/photostory/75183540.cms
 
-https://www.foxnews.com/science/trial-dogs-sniff-covid-19-uk-starts 20200518
+20200518 https://www.foxnews.com/science/trial-dogs-sniff-covid-19-uk-starts
+
+20200924 https://www.theguardian.com/world/2020/sep/24/close-to-100-accuracy-airport-enlists-sniffer-dogs-to-test-for-covid-19
+
+20201216 https://nypost.com/2020/12/16/wearing-a-used-mask-could-worse-than-no-mask-amid-covid-19-study/
 
 This command shows the current statistics for [the default country](https://github.com/WAE/coronavirus/blob/master/.conf/COUNTRYNAME), Iceland and Norway: 	
 
