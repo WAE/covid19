@@ -298,6 +298,8 @@ https://www.foxnews.com/science/dogs-could-sniff-coronavirus-cases-750-per-hour-
 
 20210108 https://www.sfgate.com/bayarea/article/Mobile-morgue-refrigerated-truck-COVID-Bay-Area-15855325.php
 
+[![450x0.jpg](https://github.com/WAE/coronavirus/raw/master/docs/images/450x0.jpg)](https://github.com/WAE/coronavirus/raw/master/docs/images/450x0.jpg)
+
 > A grim sign of the coronavirus surge, California has leased 10 refrigerated semitrailer to assist with the collection of bodies as the daily death toll climbs to unprecedented levels, according to the Governor's Office of Emergency Services (Cal OES).
 
 This command shows the current statistics for [the default country](https://github.com/WAE/coronavirus/blob/master/.conf/COUNTRYNAME), Iceland and Norway: 	
